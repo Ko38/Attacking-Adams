@@ -4,10 +4,7 @@
         <meta charset="UTF-8">
         <title>Hello</title>
         <script type="text/javascript" src="phaser.js"></script>
-        <script type="text/javascript" src="example1.js"></script>
-        <script type="text/javascript" src="example2.js"></script>
-        <script type="text/javascript" src="example3.js"></script>
-        <script type="text/javascript" src="example4.js?v"></script>
+        <script type="text/javascript" src="main.js"></script>
         <script type="text/javascript">
             var w = 800;
             var h = 600;
@@ -28,11 +25,8 @@
                 }
             };
             var game = new Phaser.Game(config);
-            game.scene.add("Example1", Example3);
-            game.scene.add("Example2", Example3);
-            game.scene.add("Example3", Example3);
-            game.scene.add("Example4", Example4);
-            game.scene.start("Example4");
+            game.scene.add("AttackingAdams", AttackingAdams);
+            game.scene.start("AttackingAdams");
         </script>
     </head>
     <body>

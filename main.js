@@ -1,5 +1,5 @@
-var Example4 = function(){};
-Example4.prototype = {
+var AttackingAdams = function(){};
+AttackingAdams.prototype = {
     preload: function(){
         this.load.image('base', './assets/sprites/cannonBase.png');
         this.load.image('barrel', './assets/sprites/cannonBarrel.png');
